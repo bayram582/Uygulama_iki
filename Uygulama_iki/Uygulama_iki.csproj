@@ -343,6 +343,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KutuphaneProgrami.Data.Model\KutuphaneProgrami.Data.Model.csproj">
+      <Project>{c0bbf824-9a7a-4641-bbe2-ea6f883b393d}</Project>
+      <Name>KutuphaneProgrami.Data.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KutuphaneProgrami.Data\KutuphaneProgrami.Data.csproj">
+      <Project>{CCBF27FD-CCAC-401F-A787-16B0708FFFF9}</Project>
+      <Name>KutuphaneProgrami.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
